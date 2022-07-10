@@ -36,7 +36,7 @@ def public_key(phi):
         if(are_coprime(random_e,phi)) and (phi%random_e!=0) and (is_prime(random_e)):
             break
         else:
-            random_e = random.randint(0,phi)
+            random_e = random.randint(2,phi-1)
            
             
     return random_e
