@@ -6,7 +6,8 @@ import random
 #Prime numbers
 P  = 61
 Q = 53
-
+#the function is_prime was taken from the following  link:
+#https://en.wikipedia.org/wiki/Primality_test#Frobenius_primality_test
 def is_prime(n) :
     if n <= 3:
         return n > 1
